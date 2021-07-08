@@ -1,0 +1,13 @@
+#box , #box2
+{ 
+    grid-column: auto;
+    margin: 10px 10px 10px 10px;
+    border: 1.5px solid black;
+}
+
+#box:hover ,#box2:hover
+{
+    background-color: rgb(125, 125, 255);
+    border-color:rgb(125, 125, 255);
+    opacity: 85%;
+}

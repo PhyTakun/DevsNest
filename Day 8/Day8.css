@@ -1,0 +1,38 @@
+.container{
+    width: 420px;
+    height: 420px;
+    display: grid;
+    gap: 1px 1px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgb(39, 23, 23);
+    background-color: #DE4738;
+    margin: 150px auto;
+    overflow: hidden;
+    grid-template-columns:repeat(20,20px);
+    grid-template-rows: repeat(20,20px);
+
+}
+.btn-red {
+    width: 20px;
+    height: 20px;
+    background-color: #de4638;
+    border: 1px solid #c36453;
+    border-radius:0px;
+}
+.btn-red:hover{
+    background-color:#c36453;
+    cursor: pointer;
+}
+.btn-white{
+    width: 20px;
+    height: 20px;
+    background-color:white;
+    border: 1px solid white;
+    border-radius:0px;
+}
+
+.btn-white:hover
+{
+    border-color:red;
+    cursor: pointer;
+} 

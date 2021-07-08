@@ -1,0 +1,34 @@
+h2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    
+    width: 600px;
+    height: 420px;
+    background-color:#9893DA;
+    margin:350px auto;
+    display: grid;
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: repeat(6,70px);
+}
+
+.container .seat
+{
+    display: grid;
+    box-sizing: border-box;
+    margin: 2px 2px 2px 2px;
+    border: 3px solid #72727E;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2)
+
+}
+
+.seat:hover{
+    background-color: #BBBDF6;
+}
+
+.occupied{
+    background-color: #BBBDF6;
+}
