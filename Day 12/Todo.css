@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#app{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#container{
+
+    width: 50%;
+    background-color: whitesmoke;
+}
+
+h1{
+    background-color:#2980b9;
+    padding: 10px 10px;
+    color:white;
+}
+
+#todo-input
+{
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    border:2px solid #fff;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+#todo-input:focus{  
+    outline: none;
+    border:2px solid #2980b9;
+    background-color: white;
+}
+
+li
+{
+    list-style: none;
+    padding: 10px;
+
+}
+
+span{
+    font-size: 18px;
+    background-color:#e74c3c;
+    padding: 10px;
+    color: white;
+    display: none;
+    margin-right: 10px;
+}
+
+li:hover span{
+    display: inline;
+}
+
+.mark{
+    text-decoration: line-through;
+}
