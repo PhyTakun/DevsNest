@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+
+    font-size: large;
+    padding: 20px;
+}
+
+button:hover
+{
+    box-shadow: 0 5px 15px rgba(156, 213, 233, 0.4);
+}
+
+p{
+    font-size: 25px;
+    font-family:cursive;
+    position: fixed;
+    bottom: 60%;
+}
